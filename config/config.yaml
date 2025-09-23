@@ -1,25 +1,25 @@
 llm:
   base_url: "https://api.deepseek.com"
   # YOUR_DEEPSEEK_API_KEY
-  api_key: sk-458e98ce76ec4d888bb3331abe70ee01 
+  api_key: sk-xxxxxxxxxxxxxxxxx 
   model_name: "deepseek-chat"
 
 llm_thinking:
   base_url: "https://api.deepseek.com"
   # YOUR_DEEPSEEK_API_KEY
-  api_key: sk-458e98ce76ec4d888bb3331abe70ee01 
+  api_key: sk-xxxxxxxxxxxxxxxxx 
   model_name: "deepseek-reasoner"
 
 # llm:
 #   base_url: "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
 #   # YOUR_DashScope_API_KEY
-#   api_key: sk-8bc02593c7024147ac7654a6084348ad 
+#   api_key: sk-xxxxxxxxxxxxxxxxx 
 #   model_name: "qwen3-max"
 
 # llm_thinking:
 #   base_url: "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
 #   # YOUR_DashScope_API_KEY
-#   api_key: sk-8bc02593c7024147ac7654a6084348ad 
+#   api_key: sk-xxxxxxxxxxxxxxxxx
 #   model_name: "qwen3-max"
 
 system_language: "中文"
