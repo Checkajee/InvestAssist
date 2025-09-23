@@ -28,18 +28,18 @@
 ```
 test_model/
 ├── 📁 analysts/                 # 分析师模块
-│   ├── analyst_manager.py      # 分析师管理器（辩论+决策）
+│   ├── analyst_manager.py      # 投资经理
 │   ├── bull_analyst.py         # 看涨分析师
 │   ├── bear_analyst.py         # 看跌分析师
 │   └── debate_recorder.py      # 辩论记录器
 ├── 📁 data_source/             # 数据源模块
 │   ├── data_source_base.py     # 数据源基类
-│   ├── price_market_akshare.py # 价格市场数据
-│   ├── hot_money_akshare.py    # 热钱市场数据
-│   ├── sina_news_crawl.py      # 新闻爬虫
-│   ├── macro_econo.py          # 宏观经济数据
-│   ├── financial_statement_akshare.py # 财务数据
-│   └── stock_analysis_akshare.py # 个股分析数据
+│   ├── price_market_akshare.py # 市场行情数据分析
+│   ├── hot_money_akshare.py    # 热钱数据分析
+│   ├── sina_news_crawl.py      # 财经新闻分析
+│   ├── macro_econo.py          # 宏观经济数据分析
+│   ├── financial_statement_akshare.py # 财务数据分析
+│   └── stock_analysis_akshare.py # 个股数据分析
 ├── 📁 models/                  # 模型模块
 │   ├── llm_model.py           # LLM模型实现
 │   └── base_agent_model.py    # 基础智能体模型
