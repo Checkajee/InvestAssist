@@ -268,7 +268,7 @@ python chat.py
 
 ### 核心组件
 - **DataSourceBase**: 数据源基类，提供缓存和统一接口
-- **ComprehensiveMarketAnalyzer**: 综合分析器，整合多数据源
+- **ComprehensiveMarketAnalyzer**: 综合市场分析师，整合多数据源
 - **AnalystManager**: 分析师管理器，协调辩论和决策
 - **DebateRecorder**: 辩论记录器，管理辩论流程
 - **LLMModel**: LLM模型封装，支持多种服务商
@@ -312,8 +312,8 @@ class CustomAnalyst:
 - **并行加载**: 多数据源异步并发获取
 
 ### 性能指标
-- **数据获取**: 4个数据源并行获取，总耗时 < 30秒
-- **LLM分析**: 单次分析耗时 < 10秒
+- **数据获取**: 6个数据源并行获取，总耗时 < 30秒
+- **LLM分析**: 单次分析耗时 < 30秒
 - **缓存命中率**: > 80% (相同时间段)
 - **内存使用**: < 500MB (包含缓存数据)
 
